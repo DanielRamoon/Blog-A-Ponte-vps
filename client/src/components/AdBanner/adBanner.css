@@ -1,0 +1,18 @@
+/* adBanner.css */
+
+.ad-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 120px;
+  margin-top: 40px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.ad-banner img {
+  width: 60%;
+  height: 150px;
+  object-fit: cover;
+}

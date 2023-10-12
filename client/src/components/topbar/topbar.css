@@ -1,0 +1,275 @@
+.top {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to right, hsl(18, 74%, 67%), #e25d24);
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.top.hidden {
+  opacity: 0;
+  transition: opacity 0s ease-in-out;
+  animation: showTopBar 3s ease-in-out forwards;
+}
+
+@keyframes showTopBar {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.link-top {
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.topCenter {
+  flex: 6;
+  justify-content: center;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  left: 30%;
+  gap: 40px;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.topSearchDate {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.topSearchDateText {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+  top: 15px;
+}
+
+.topSearchDateFormatted {
+  font-size: 14px;
+  color: #fff;
+}
+
+.topSearchMonth {
+  font-size: 12px;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  max-width: 140px;
+  height: auto;
+  margin-top: 1 0px;
+  margin-left: 250px;
+}
+
+.menuIcon {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .topRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .menuIcon {
+    display: block;
+    font-size: 240px;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #da5d23;
+    height: 80px;
+  }
+
+  .topList {
+    display: none;
+  }
+
+  .topList.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  background-color: #da5d23;
+  position: absolute;
+  top: 100%;
+  left: 44%;
+  width: auto;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+}
+
+.categoryCentered {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Arial";
+  text-transform: uppercase;
+}
+
+.categoryItem {
+  padding: 10px;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.categoryItem:hover {
+  background-color: orange;
+}
+
+.categoryLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.categoryLink:hover {
+  color: #fff;
+}
+
+.link-top.active {
+  color: orange;
+}
+
+/* CSS atualizado para telas menores */
+@media (max-width: 768px) {
+  /* ... Outras regras de estilo ... */
+
+  .top {
+    width: 237%;
+    height: 80px;
+    background: linear-gradient(to right, hsl(18, 74%, 67%), #e25d24);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
+  .topList {
+    display: none;
+  }
+
+  .menuIcon {
+    font-size: 24px;
+    color: #da5d23;
+    cursor: pointer;
+    position: relative;
+    right: 42%;
+    top: -48px;
+    /* Adicione um ícone de hambúrguer (☰) como texto */
+  }
+
+  /* Quando o botão de hambúrguer é clicado, exiba o menu */
+  .topList.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, hsl(18, 74%, 67%), #e25d24);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+}

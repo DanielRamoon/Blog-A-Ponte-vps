@@ -1,0 +1,23 @@
+/* NewsRandom.css */
+.news-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.news-card {
+  display: flex;
+}
+
+.news-square {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+}
+
+.news-card p {
+  margin-left: 10px;
+  font-weight: bold;
+}

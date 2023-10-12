@@ -1,0 +1,83 @@
+.post {
+  width: 700px;
+  margin: 100px auto 0;
+  justify-content: center;
+}
+
+.postImg {
+  width: 700px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.postInfo {
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 40px;
+}
+
+.postCat {
+  font-family: "Varela Round", sans-serif;
+  font-size: 11px;
+  color: #be9656;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.postTitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200%;
+  transition: color 0.3s ease-in-out;
+}
+
+.postTitle:hover {
+  color: #da5d23;
+}
+
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #999;
+  margin-top: 15px;
+}
+
+.postDesc {
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  color: #3b3b3b;
+  line-height: 1.5;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.postContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.postWrapper {
+  width: 385px;
+  margin: 0px 25px;
+  margin-top: 30px;
+}

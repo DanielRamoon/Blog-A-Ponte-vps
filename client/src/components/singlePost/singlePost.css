@@ -1,0 +1,139 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.singlePostImg {
+  width: 80vh;
+  height: 450px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.commentSection {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.commentSection h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.commentSection form {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentSection input,
+.commentSection textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.commentSection button {
+  background-color: #da5d23;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.commentSection button:hover {
+  background-color: #ffad61;
+}

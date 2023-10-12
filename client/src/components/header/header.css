@@ -1,0 +1,244 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 897px;
+  background: #fff;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.imageTitleInside {
+  position: absolute;
+  width: 53%;
+  transform: translateY(60%);
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.imageTitleInside2 {
+  position: absolute;
+  width: 53%;
+  transform: translateY(-110%);
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+
+.headerImg {
+  width: 30%;
+  height: 450px;
+  margin-top: 40px;
+  object-fit: cover;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+}
+
+.centerImage {
+  grid-column: 2;
+  height: 950px;
+  width: 700px;
+  position: relative;
+}
+
+.centerImage:hover .centerImg {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.sideImages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sideImage {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 134px;
+  margin-right: 20%;
+}
+
+.sideImage:hover .sideImg {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.sideImages .sideImg {
+  width: 38vh;
+  height: 25vh;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.sideImages .sideImage {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.sideImage:hover {
+  opacity: 1;
+}
+
+.centerImage .centerImg {
+  width: 100%;
+  height: 550px;
+  margin-top: 170px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.sideImg {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.imageInfo {
+  position: relative;
+  top: -12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.imageOverlay {
+  position: relative;
+  top: -100px;
+  left: 0;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.imageTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  line-height: 1.2;
+  position: relative;
+  top: -5px;
+  left: 18px;
+}
+
+.imageDescription {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  position: relative;
+  top: -9px;
+  left: 21px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-color: #eee;
+    width: 980px;
+    height: 80%;
+  }
+
+  .imageGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-right: 0;
+    margin-left: 5%;
+    margin-top: 80px;
+    width: 100%;
+    position: relative;
+    left: -2%;
+  }
+
+  .centerImage {
+    grid-column: 1;
+    margin-bottom: 10px;
+    width: 90%;
+    position: relative;
+  }
+
+  .sideImages {
+    display: none;
+  }
+}
+
+.latestNews {
+  position: relative;
+  color: white;
+  text-align: center;
+  left: 40%;
+  top: 5%;
+}
+
+.latestNews {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.newsLabel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+}
+
+.newsTitle {
+  background-color: red;
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  position: relative;
+  top: -20px;
+}

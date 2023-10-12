@@ -1,0 +1,120 @@
+.container-footer {
+  display: flex;
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(to right, hsl(18, 74%, 67%), #e25d24);
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-footer img {
+  width: 100%;
+  height: 150px;
+  margin-top: 0;
+  position: relative;
+  object-fit: contain;
+  right: 40%;
+}
+
+.links-column {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 10%;
+  top: -30px;
+  margin-left: 100px;
+  gap: 30px;
+  width: 4%;
+}
+
+.link {
+  color: #000;
+  //margin-bottom: 5px;
+  //width: 180px;
+  text-decoration: none;
+  font-family: "Satoshi Variable", sans-serif;
+  position: relative;
+  //right: 150px;
+}
+
+.card-contact {
+  width: 298px;
+  height: 68px;
+  background-color: #3e3e3e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  position: relative;
+  top: 0px;
+  right: 55px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-footer-infor {
+  position: relative;
+  right: 115px;
+}
+
+.card-contact h3 {
+  margin: -115px 0 0 8%;
+  font-family: "Satoshi Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 138%;
+  color: #fff;
+  position: relative;
+  top: 50px;
+}
+.card-contact span {
+  font-family: "Satoshi Variable", sans-serif;
+
+  font-size: 18px;
+  line-height: 27.6px;
+  color: #fff;
+  position: relative;
+  top: 50px;
+}
+
+.finaly-footer {
+  justify-content: center;
+  align-items: end;
+  color: #fff;
+  position: relative;
+  height: 80px;
+  top: 150px;
+  right: 50%;
+  font-family: "Satoshi Variable", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20.7px;
+}
+
+.finaly-footer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container-footer {
+    flex-direction: column;
+    height: auto;
+    width: 980px;
+  }
+
+  .links-column,
+  .finaly-footer {
+    display: none;
+  }
+}

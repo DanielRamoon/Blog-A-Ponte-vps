@@ -1,0 +1,153 @@
+.section-top {
+  background-color: #eee;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #222;
+  margin-right: 5px;
+  border-right: 1px solid #dedbdb;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin: 3px 15px 0 0;
+  padding-right: 10px;
+  font-weight: 700;
+  float: left;
+  font-weight: bold;
+  margin-left: 12%;
+}
+
+.section-title::after {
+  content: "'A Ponte";
+  margin-left: 10px;
+}
+
+.section-date {
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 12px;
+  color: #777;
+  font-size: 13px;
+  border-right: none;
+  padding-right: 0;
+  align-items: center;
+  margin-right: 12%;
+}
+
+.section-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 13%;
+  top: 60px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  font-size: 18px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100%;
+  flex-grow: 1;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.logo img {
+  max-width: 300px;
+  height: 150px;
+  margin-top: -15px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 78.4%;
+  top: -105px;
+}
+
+.search-icon {
+  margin-right: 5px;
+  border: none;
+  color: #dedede;
+}
+
+.search-input {
+  width: 150px;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  color: #eee;
+}
+
+@media (max-width: 768px) {
+  .section-top {
+    flex-direction: column;
+    align-items: center;
+    width: 110vh;
+    align-items: self-end;
+  }
+
+  .section-title {
+    margin: 10px 0;
+  }
+
+  .section-date {
+    margin: 10px 0;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    top: -85px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+  }
+
+  .logo img {
+    max-width: 600px;
+    height: 300px;
+    margin-top: -15px;
+  }
+
+  .search-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+    top: -10px;
+    left: 55%;
+  }
+}
