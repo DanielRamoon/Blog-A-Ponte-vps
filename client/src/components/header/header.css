@@ -185,7 +185,7 @@
 @media (max-width: 768px) {
   .header {
     background-color: #eee;
-    width: 980px;
+    width: 150vh;
     height: 80%;
   }
 

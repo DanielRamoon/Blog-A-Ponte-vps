@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
 import Publish from "../publishCenter/centerPubli";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Header({ posts }) {
   const latestPosts = posts.slice(-6);
-  const PF = "http://localhost:5000/images/";
+  const PF = "http://82.180.136.103:5000/images/";
 
   const [currentPostIndex, setCurrentPostIndex] = useState(0);
   const [selectedSideImageIndex, setSelectedSideImageIndex] = useState(null);
@@ -30,7 +31,7 @@ export default function Header({ posts }) {
           <span className="headerTitleSm"></span>
         </div>
         <div className="imageGrid">
-          <div className="sideImages">
+          {/* <div className="sideImages">
             {latestPosts.slice(0, 3).map((post, index) => (
               <div
                 className={`sideImage ${
@@ -49,18 +50,20 @@ export default function Header({ posts }) {
                 <h2 className="imageTitleInside">{post.title}</h2>
               </div>
             ))}
-          </div>
+          </div> */}
           <div className="centerImage">
             <div className="centerImgWrapper">
-              <img
-                className="centerImg"
-                src={
-                  selectedSideImageIndex !== null
-                    ? PF + latestPosts[selectedSideImageIndex]?.photo
-                    : PF + latestPosts[currentPostIndex]?.photo
-                }
-                alt=""
-              />
+              
+                <img
+                  className="centerImg"
+                  src={
+                    selectedSideImageIndex !== null
+                      ? PF + latestPosts[selectedSideImageIndex]?.photo
+                      : PF + latestPosts[currentPostIndex]?.photo
+                  }
+                  alt=""
+                />
+              
             </div>
             <div className="imageInfo">
               <h3 className="imageTitle">
@@ -100,13 +103,15 @@ export default function Header({ posts }) {
               >
                 <div>
                   {" "}
-                  <img
-                    className={`sideImg ${
-                      index === currentPostIndex ? "active" : ""
-                    }`}
-                    src={PF + post.photo}
-                    alt=""
-                  />
+                  <Link to={`/post/${post._id}`} className="link">
+                    <img
+                      className={`sideImg ${
+                        index === currentPostIndex ? "active" : ""
+                      }`}
+                      src={PF + post.photo}
+                      alt=""
+                    />
+                  </Link>
                   <h2 className="imageTitleInside2">{post.title}</h2>
                 </div>
               </div>

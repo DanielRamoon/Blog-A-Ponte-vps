@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./FeaturedNews.css";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const FeaturedNews = ({ posts }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const numberOfNewsToDisplay = 3;
-  const PF = "http://localhost:5000/images/";
+  const PF = "http://82.180.136.103:5000/images/";
 
   const nextNews = () => {
     setCurrentIndex(
@@ -41,12 +42,14 @@ const FeaturedNews = ({ posts }) => {
             className={`featured-card ${index === 0 ? "active" : ""}`}
             key={index}
           >
-            <img
-              src={PF + post.photo}
-              alt={`Imagem ${index + 1}`}
-              width={400}
-              height={400}
-            />
+               <Link to={`/post/${post._id}`} className="link">
+              <img
+                src={PF + post.photo}
+                alt={`Imagem ${index + 1}`}
+                width={400}
+                height={400}
+              />
+            </Link>
             <h2 className="featured-card-title">{post.title}</h2>
           </div>
         ))}

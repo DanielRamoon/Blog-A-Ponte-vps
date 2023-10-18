@@ -2,7 +2,7 @@ import "./post.css";
 import { Link } from "react-router-dom";
 
 export default function Post({ post }) {
-  const PF = "http://localhost:5000/images/";
+  const PF = "http://82.180.136.103:5000/images/";
 
   // Função para formatar a data em português
   const formatarData = (data) => {

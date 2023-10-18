@@ -25,7 +25,9 @@
 
 @media (max-width: 768px) {
   .posts {
-    margin-left: 10px;
+    margin-left: 15%;
+  position: relative;
+    left: 25%;
   }
 }
 

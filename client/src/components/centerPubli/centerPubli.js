@@ -18,8 +18,8 @@ function CenterPubli() {
   // }, []);
 
   return (
-    <div className="container-publi">
-      <div className="container-img">
+    <div className="container-publi3">
+      <div className="container-img3">
         <img src={Banner} alt="Publicidade" />
       </div>
     </div>

@@ -233,7 +233,7 @@
   /* ... Outras regras de estilo ... */
 
   .top {
-    width: 237%;
+    width: 150vh;
     height: 80px;
     background: linear-gradient(to right, hsl(18, 74%, 67%), #e25d24);
     position: sticky;
@@ -250,13 +250,13 @@
   }
 
   .menuIcon {
-    font-size: 24px;
+    font-size: 34px;
     color: #da5d23;
     cursor: pointer;
     position: relative;
     right: 42%;
-    top: -48px;
-    /* Adicione um ícone de hambúrguer (☰) como texto */
+    top: -12px;
+    display: block;
   }
 
   /* Quando o botão de hambúrguer é clicado, exiba o menu */
@@ -266,10 +266,18 @@
     align-items: center;
     background: linear-gradient(to right, hsl(18, 74%, 67%), #e25d24);
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 0;
-    width: 100%;
+    width: 15%;
     padding: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .categoryList {
+    display: none; /* Inicialmente, oculte a lista de categorias */
+  }
+
+  .topList.active .categoryList {
+    display: flex; /* Apenas quando .topList está ativo, mostre a lista de categorias */
   }
 }

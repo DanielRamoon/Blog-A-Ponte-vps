@@ -7,7 +7,7 @@ import axios from "axios";
 
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
-  const PF = "http://localhost:5000/images/";
+  const PF = "http://82.180.136.103:5000/images/";
 
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });

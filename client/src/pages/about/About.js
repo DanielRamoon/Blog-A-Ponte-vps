@@ -18,90 +18,22 @@ function About() {
       </h1>
       <div className="about-text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit
-          amet nisi in tellus consectetur varius. Donec maximus est nec lectus
-          dapibus, ac mattis lectus congue. Nullam mattis tortor a ligula
-          eleifend, eu dictum velit porttitor. Quisque auctor tristique elit, id
-          iaculis lacus tincidunt a. Ut condimentum purus vitae tortor
-          pellentesque, ac ultricies quam maximus. Curabitur luctus tincidunt
-          hendrerit. Nunc tincidunt erat id felis convallis, sit amet volutpat
-          metus dignissim. Nam congue mollis nisl nec consequat. Nulla facilisi.
-          Vivamus a consequat ligula. Donec ac varius lorem, in luctus eros.
-          Aenean vulputate convallis luctus. Aliquam tristique nulla in tortor
-          vulputate pulvinar.
+         HISTÓRICO: "A Ponte" - Canal de notícias do Vale do São Francisco, região e de todo o Estado. Com foco no jornalismo independente, o blog "A Ponte" agrega notícias no viés político, social, econômico e opiniões da comunidade local.
+
+Fundado em 2023, é um projeto que vem aguçar tudo o que o leitor/internauta busca para se manter bem informado.
         </p>
         <p>
-          Sed tristique finibus arcu, id finibus felis. Sed efficitur enim sed
-          tristique mattis. Morbi vel ante at purus bibendum tempor. Ut a
-          interdum tortor. Phasellus quis tellus tempor, bibendum est non,
-          ultrices mauris. Aenean iaculis arcu id mauris scelerisque hendrerit.
-          Mauris facilisis tellus ut justo dapibus gravida. Nulla nec eros
-          purus. Duis volutpat leo nec ante efficitur posuere. Donec vulputate
-          nulla vel mi dapibus, ac tempor justo sollicitudin. Donec congue felis
-          ut purus varius aliquam. Maecenas aliquam dictum ante in elementum.
-          Mauris suscipit ullamcorper felis, vel sagittis nunc rutrum sit amet.
-          Vivamus efficitur auctor lacus, vel gravida nisl sagittis a. Integer
-          ut rhoncus tellus, nec dignissim metus. Etiam faucibus tincidunt
-          facilisis. Nam tincidunt, nisi eu lobortis vulputate, nisl lectus
-          pulvinar metus, et ullamcorper risus felis id ipsum.
+          EXPERIÊNCIA: Com uma equipe perspicaz que atua no mercado da comunicação há mais de cinco anos, vasta atuação com redação jornalística, produção de conteúdo e formação na área de comunicação servem de pilares para uma excelência na credibilidade de conteúdo.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit
-          amet nisi in tellus consectetur varius. Donec maximus est nec lectus
-          dapibus, ac mattis lectus congue. Nullam mattis tortor a ligula
-          eleifend, eu dictum velit porttitor. Quisque auctor tristique elit, id
-          iaculis lacus tincidunt a. Ut condimentum purus vitae tortor
-          pellentesque, ac ultricies quam maximus. Curabitur luctus tincidunt
-          hendrerit. Nunc tincidunt erat id felis convallis, sit amet volutpat
-          metus dignissim. Nam congue mollis nisl nec consequat. Nulla facilisi.
-          Vivamus a consequat ligula. Donec ac varius lorem, in luctus eros.
-          Aenean vulputate convallis luctus. Aliquam tristique nulla in tortor
-          vulputate pulvinar.
+          MISSÃO: Nossa missão é manter forte o conhecimento da notícia de forma qualitativa para o leitor, trazendo assim as necessidades para quem busca o melhor conteúdo e superar suas expectativas.
         </p>
         <p>
-          Sed tristique finibus arcu, id finibus felis. Sed efficitur enim sed
-          tristique mattis. Morbi vel ante at purus bibendum tempor. Ut a
-          interdum tortor. Phasellus quis tellus tempor, bibendum est non,
-          ultrices mauris. Aenean iaculis arcu id mauris scelerisque hendrerit.
-          Mauris facilisis tellus ut justo dapibus gravida. Nulla nec eros
-          purus. Duis volutpat leo nec ante efficitur posuere. Donec vulputate
-          nulla vel mi dapibus, ac tempor justo sollicitudin. Donec congue felis
-          ut purus varius aliquam. Maecenas aliquam dictum ante in elementum.
-          Mauris suscipit ullamcorper felis, vel sagittis nunc rutrum sit amet.
-          Vivamus efficitur auctor lacus, vel gravida nisl sagittis a. Integer
-          ut rhoncus tellus, nec dignissim metus. Etiam faucibus tincidunt
-          facilisis. Nam tincidunt, nisi eu lobortis vulputate, nisl lectus
-          pulvinar metus, et ullamcorper risus felis id ipsum.
+          VISÃO: Consolidar "A Ponte" e disponibilizar a plataforma de forma clara e objetiva para os leitores.
+
+VALORES: Inovação; Qualidade e Transparência
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit
-          amet nisi in tellus consectetur varius. Donec maximus est nec lectus
-          dapibus, ac mattis lectus congue. Nullam mattis tortor a ligula
-          eleifend, eu dictum velit porttitor. Quisque auctor tristique elit, id
-          iaculis lacus tincidunt a. Ut condimentum purus vitae tortor
-          pellentesque, ac ultricies quam maximus. Curabitur luctus tincidunt
-          hendrerit. Nunc tincidunt erat id felis convallis, sit amet volutpat
-          metus dignissim. Nam congue mollis nisl nec consequat. Nulla facilisi.
-          Vivamus a consequat ligula. Donec ac varius lorem, in luctus eros.
-          Aenean vulputate convallis luctus. Aliquam tristique nulla in tortor
-          vulputate pulvinar.
-        </p>
-        <p>
-          Sed tristique finibus arcu, id finibus felis. Sed efficitur enim sed
-          tristique mattis. Morbi vel ante at purus bibendum tempor. Ut a
-          interdum tortor. Phasellus quis tellus tempor, bibendum est non,
-          ultrices mauris. Aenean iaculis arcu id mauris scelerisque hendrerit.
-          Mauris facilisis tellus ut justo dapibus gravida. Nulla nec eros
-          purus. Duis volutpat leo nec ante efficitur posuere. Donec vulputate
-          nulla vel mi dapibus, ac tempor justo sollicitudin. Donec congue felis
-          ut purus varius aliquam. Maecenas aliquam dictum ante in elementum.
-          Mauris suscipit ullamcorper felis, vel sagittis nunc rutrum sit amet.
-          Vivamus efficitur auctor lacus, vel gravida nisl sagittis a. Integer
-          ut rhoncus tellus, nec dignissim metus. Etiam faucibus tincidunt
-          facilisis. Nam tincidunt, nisi eu lobortis vulputate, nisl lectus
-          pulvinar metus, et ullamcorper risus felis id ipsum.
-        </p>
-      </div>
+              </div>
       {/* <div className="slidebar-about">
         <Sidebar />
       </div> */}

@@ -95,3 +95,17 @@
     left: 5%;
   }
 }
+
+@media (max-width: 768px) {
+  .featured-news {
+    margin-left: 15%;
+  }
+
+  .featured-card {
+  }
+  .featured-card {
+  }
+
+  .featured-card-container {
+  }
+}

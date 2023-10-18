@@ -106,15 +106,30 @@
   text-align: center;
 }
 
+
 @media (max-width: 768px) {
   .container-footer {
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     height: auto;
-    width: 980px;
+    width: 150vh;
+    margin-top: 10px;
   }
 
   .links-column,
   .finaly-footer {
     display: none;
   }
+
+  .logo-footer img {
+    width: 100%;
+    height: 150px;
+    margin-top: 0;
+    position: relative;
+    object-fit: contain;
+    right: 30%;
+  }
+
+
 }

@@ -20,17 +20,14 @@
 .publi-about {
   width: 100%;
   position: relative;
-  left: 0px;
-  top: -150px;
 }
 .about h1 {
-  position: relative;
-  top: -250px;
   font-size: 24px;
   margin-bottom: 10px;
   margin-top: 50px;
   font-size: 24px;
   margin-bottom: 10px;
+  margin-top: 50px;
   font-family: "Varela Round", sans-serif;
 }
 
@@ -45,8 +42,6 @@
   margin-top: 30px;
   font-family: "Varela Round", sans-serif;
   color: #3b3b3b;
- position: relative;
-  top: -250px;
 }
 
 .slidebar-about {
@@ -69,7 +64,7 @@
 
   .about h1 {
     width: 100%;
-    margin-left: 50%;
+    margin-left: 75%;
     position: relative;
     top: -180px;
   }
@@ -83,14 +78,14 @@
   }
 
   .about .about-text p {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
     justify-content: center;
     font-family: "Varela Round", sans-serif;
     color: #3b3b3b;
     position: relative;
-    left: 1rem;
+    left: 4rem;
     top: -180px;
   }
 
@@ -101,11 +96,22 @@
     text-align: center;
   }
 
-  .publi-about {
-    width: 100%;
-    position: relative;
-    position: relative;
-    right: 50%;
-  }
+      position: relative;
+    right: 20%;.container-publi img {
+    display: flex;
+   
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+   
+
+.publi-about {
+  width: 100%;
+  position: relative;
+   position: relative;
+    right: 40px;
 }
+}
+
 

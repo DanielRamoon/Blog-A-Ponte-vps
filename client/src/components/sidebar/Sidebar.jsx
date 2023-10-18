@@ -2,6 +2,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import FilteredPosts from "../../components/FilteredPosts/FilteredPosts";
+import Foto from "../../assest/ronny1.png";
+import Foto2 from "../../assest/ronny2.png";
+import Foto3 from "../../assest/estado.png";
 
 import "./sidebar.css";
 import logo from "../../assest/aPONTE.png";
@@ -9,22 +12,12 @@ import logo from "../../assest/aPONTE.png";
 export default function Sidebar({ onCategoryAdded }) {
   const [cats, setCats] = useState([]);
 
-  const images = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjqNHSxT6-d7DvLtqvW_QzJIFjfUTcst60gME0PDeQwd6gWsPGAIEzRACwrrdx3TaYCws&usqp=CAU",
-    "https://www.acheconcursos.com.br/imagens/post/42302/prefeitura-de-casa-nova-bahia-concurso-publico-em-2020.png",
-    "https://waldineypassos.com.br/wp-content/uploads/2023/06/Festa-do-Interior-2023.png",
-  ];
+  const images = [Foto];
 
-  const images1 = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGg9LNH-CKdZdeNsI9kLdUQyUp_YwcvNGG4w&usqp=CAU",
-    "https://portalfacilarquivos.blob.core.windows.net/uploads/CASANOVA/img/%7BEDBBAD5B-BCB5-4EB6-64E8-4ABA54EEE0B0%7D/%7BEDBBAD5B-BCB5-4EB6-64E8-4ABA54EEE0B0%7D_710X420.jpg",
-    "https://waldineypassos.com.br/wp-content/uploads/2023/06/Festa-do-Interior-2023.png",
-  ];
+  const images1 = [Foto2];
 
   const images2 = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFI_XjUoo4Qd0TIf3IEsNQHPCEp_3jI-QYDA&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREKlwiWrGOBv7vf_T_GmCQcN79eRDYU1Ik3A&usqp=CAU",
-    "https://www.waldineypassos.com.br/wp-content/uploads/2023/01/325359476_1339082346908237_4598146594814257998_n.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

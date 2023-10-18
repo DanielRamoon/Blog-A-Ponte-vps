@@ -21,10 +21,43 @@
   margin-right: 200px;
 }
 
+.piblish {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
+  .container-publi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .container-publi img {
+    display: flex;
+    width: 150vh;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+  }
+
   .container-img {
+    width: 500px;
+    object-fit: cover;
     position: relative;
-    left: 20%;
+    left: 3rem;
     top: -24px;
+  }
+
+  .piblish {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
