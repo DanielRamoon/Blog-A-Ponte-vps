@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   margin-top: 30px;
-  width: fit-content;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -13,6 +13,7 @@
 
 .container {
   display: flex;
+  width: 100%;
   justify-content: center;
   position: relative;
 }
@@ -20,13 +21,16 @@
 .publi-about {
   width: 100%;
   position: relative;
-  left: 0px;
+  right: 0px;
+
   top: -150px;
 }
 .about h1 {
   position: relative;
-  top: -250px;
-  font-size: 24px;
+  top: -350px;
+  right: 40px;
+
+  font-size: 35px;
   margin-bottom: 10px;
   margin-top: 50px;
   font-size: 24px;
@@ -39,14 +43,20 @@
 }
 
 .about .about-text p {
-  font-size: 16px;
-  line-height: 1.5;
+  display: flex;
+  width: 58rem;
+  height: auto;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  line-height: 1.2;
   margin-bottom: 20px;
   margin-top: 30px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #3b3b3b;
- position: relative;
-  top: -250px;
+  position: relative;
+  top: -300px;
+  right: 7%;
 }
 
 .slidebar-about {
@@ -57,21 +67,25 @@
 }
 
 @media (max-width: 767px) {
-  /* Estilos para telas menores que 768px (dispositivos móveis) */
-
   .about {
-    margin-left: 0;
-    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
     width: 100%;
-    border: none;
-    margin-left: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-sizing: border-box;
   }
 
   .about h1 {
-    width: 100%;
-    margin-left: 50%;
+    margin: 0; /* Redefina as margens */
+    font-size: 43px;
     position: relative;
-    top: -180px;
+    top: -270px; /* Ajusta a posição do título */
+    left: 290px;
   }
 
   .about .about-text {
@@ -83,29 +97,33 @@
   }
 
   .about .about-text p {
-    font-size: 24px;
+    display: flex;
+    width: 60rem;
+    height: auto;
+    font-size: 38px;
     line-height: 1.5;
     margin-bottom: 20px;
-    justify-content: center;
+    margin-top: 30px;
+margin-bottom:30px;
     font-family: "Varela Round", sans-serif;
     color: #3b3b3b;
     position: relative;
-    left: 1rem;
-    top: -180px;
+    top: -250px;
+    left: 1%;
   }
 
   .about-text {
-    width: 100%;
-    margin-left: 55%;
+    margin: 0 auto; /* Centralize .about-text */
     margin-bottom: 50px;
-    text-align: center;
   }
 
   .publi-about {
-    width: 100%;
-    position: relative;
-    position: relative;
-    right: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    margin: 50 auto; /* Centralize o elemento .publi-about */
+    max-width: 90%; /* Ajusta a largura do elemento .publi-about */
+ position: relative;
+    left: 30%;
   }
 }
-

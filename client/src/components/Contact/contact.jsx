@@ -60,7 +60,7 @@ function Contact() {
         </button>
       </form>
       <div
-        style={{ width: "100%" , marginLeft: "-10%" }}
+        style={{ width: "100%" , marginLeft: "4%" }}
         className="publi-contact"
       >
         <CenterPubli />

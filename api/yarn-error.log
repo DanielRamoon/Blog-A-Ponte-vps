@@ -1,20 +1,25 @@
 Arguments: 
-  /usr/bin/node-18 /usr/bin/yarn add multer
+  /root/.nvm/versions/node/v16.20.2/bin/node /usr/share/yarn/bin/yarn.js start
 
 PATH: 
-  /opt/Insomnia:/opt/Insomnia:/opt/Insomnia:/opt/Insomnia:/home/dell/.nvm/versions/node/v16.20.1/bin:/opt/Insomnia:/home/dell/.local/bin:/home/dell/bin:/opt/Insomnia:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/home/dell/.composer/vendor/bin
+  /root/.nvm/versions/node/v16.20.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 Yarn version: 
   1.22.19
 
 Node version: 
-  18.17.1
+  16.20.2
 
 Platform: 
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/home/dell/Projetos/DPR-DEVELOPER/blog-a-ponte/api/node_modules/.yarn-integrity'
+  SyntaxError: /root/blog/Blog-A-Ponte-vps/package.json: Unexpected token } in JSON at position 202
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
 
 npm manifest: 
   {

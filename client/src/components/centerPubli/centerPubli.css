@@ -3,25 +3,34 @@
   width: 100%;
   justify-content: center;
   margin-top: 20px;
-    position: relative;
-    left: 3rem5;
 }
 
 .container-img3 {
-  display: flex;
-  margin-top: 40px;
+   display: flex;
+  margin-top: -80px;
   margin-right: -125px;
-  
+  width: 74.3%;
+  height: auto;
+  position: relative;
+    left: 3%;
+
 }
 
 .container-publi img3 {
-  width: 100%;
+  width: 200%;
   height: 150px;
   object-fit: cover;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-right: 200px;
 }
 
+.piblish {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
 
 
 @media (max-width: 768px) {
@@ -47,6 +56,8 @@ margin-left: 40%;
 
   .container-img3 {
     width: 500px;
+margin-top: 80px;
+
     object-fit: cover;
     position: relative;
     left: 15%;
